@@ -30,9 +30,9 @@ Does this loop stop
 </div>
 <br>
 
-<h3>
+<h2>
     <b>Installation & Environment setup</b>
-</h3>
+</h2>
 
 <h5>
     <b>Install miniconda</b>
