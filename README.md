@@ -34,7 +34,6 @@ Does this loop stop
     <b>Installation & Environment setup</b>
 </h3>
 
-<br>
 <h5>
     <b>Install miniconda</b>
 </h5>
