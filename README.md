@@ -28,3 +28,25 @@ Does this loop stop
         </div>
     </div>
 </div>
+<br>
+
+<h3>
+    <b>Installation & Environment setup</b>
+</h3>
+
+<br>
+<h5>
+    <b>Install miniconda</b>
+</h5>
+
+```bash
+https://www.anaconda.com/download/success
+```
+
+<h5>
+    <b>Environment setup</b>
+</h5>
+
+- [environment.md](001-Getting-Started/environment-setup.md)
+
+
