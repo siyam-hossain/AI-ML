@@ -3,7 +3,7 @@ Does this loop stop
 
 
 <br>
-<div style="display:flex; align-items:center; gap:12px;">
+<div>
   <img src="./img/siyam.jpg" width="80" height="80" style="border-radius:50%;" />
   <div>
     <div><strong>Siyam Hossain</strong></div>
