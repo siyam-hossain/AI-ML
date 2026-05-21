@@ -1,130 +1,86 @@
-<h1>
-    <b>AI-ML</b>
-</h1>
-Does this loop stop
+# 🤖 AI-ML Learning Repository
 
+A structured collection of notebooks and resources for learning Artificial Intelligence and Machine Learning — from Python basics to advanced ML concepts.
 
-<br>
-<h2>
-    <b>Author</b>
-</h2>
-<div>
-    <img src="./img/siyam.jpg" width="80" height="80" style="border-radius:50%;" />
-    <div>
-        <div><strong>Siyam Hossain</strong></div>
-        <div>
-            <a href="https://www.facebook.com/siyam.cybersoul">
-                <img src="https://img.shields.io/badge/facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
-            </a>
-            <a href="https://github.com/siyam-hossain/">
-                <img src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white"/>
-            </a>
-            <a href="https://www.instagram.com/_siyam_hossain/">
-                <img src="https://img.shields.io/badge/instagram-FD1D1D?style=for-the-badge&logo=instagram&logoColor=white"/>
-            </a>
-            <a href="https://www.linkedin.com/in/siyam-cybersoul/">
-                <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-            </a>
-        </div>
-    </div>
+---
+
+## 👤 Author
+
+<div align="center">
+
+<img src="./img/siyam.jpg" width="80" height="80" style="border-radius:50%;" />
+
+**Siyam Hossain**
+
+[![Facebook](https://img.shields.io/badge/facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/siyam.cybersoul)
+[![GitHub](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/siyam-hossain/)
+[![Instagram](https://img.shields.io/badge/instagram-FD1D1D?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_siyam_hossain/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siyam-cybersoul/)
+
 </div>
-<br>
 
-<h2>
-    <b>Installation & Environment setup</b>
-</h2>
+---
 
-<h5>
-    <b>Install miniconda</b>
-</h5>
+## ⚙️ Installation & Environment Setup
+
+### 1. Install Miniconda
+
+Download and install Miniconda from the official site:
 
 ```bash
 https://www.anaconda.com/download/success
 ```
 
-<h5>
-    <b>Environment setup</b>
-</h5>
+### 2. Set Up the Environment
 
-- [environment.md](001-Getting-Started/environment-setup.md)
-<br>
+Follow the environment setup guide: [environment.md](001-Getting-Started/environment-setup.md)
 
-<h2>
-    <b>Table of content</b>
-</h2>
+---
 
-<table>
-    <tr>
-        <th>Index</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td>Basic python programming language</td>
-        <td>
-            <ul>
-                <li>
-                    <a href="002-Python-Programming-Language/001-basic.ipynb">basic python</a>
-                </li>
-                <li>
-                    <a href="002-Python-Programming-Language/002-variables.ipynb">variables</a>
-                </li>
-                <li>
-                    <a href="002-Python-Programming-Language/003-data-types.ipynb">data-types</a>
-                </li>
-                <li>
-                    <a href="002-Python-Programming-Language/004-operators.ipynb">operators</a>
-                </li>
-                <li>
-                    <a href="002-Python-Programming-Language/006-assignment_solution.ipynb">assignment-solution</a>
-                </li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>Control flow</td>
-        <td>
-            <ul>
-                <li>
-                    <a href="003-Python-Control-Flow/001-conditional-statements.ipynb">conditional statement</a>
-                </li>
-                <li>
-                    <a href="003-Python-Control-Flow/002-loops.ipynb">loops</a>
-                </li>
-                <li>
-                    <a href="003-Python-Control-Flow/003-assignment-questions.ipynb">assignment-question</a>
-                </li>
-                <li>
-                    <a href="003-Python-Control-Flow/004-assignment-solutions.ipynb">assignment-solution</a>
-                </li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>Built-in data structure</td>
-        <td>
-            <ul>
-                <li>
-                    <a href="004-Built-in-Data-Structure/001-list-list-comprehension.ipynb">list, list comprehension</a>
-                </li>
-                <li>
-                    <a href="004-Built-in-Data-Structure/002-01-list-assignment-questions.ipynb">list question</a>
-                </li>
-                <li>
-                    <a href="004-Built-in-Data-Structure/002-02-list-assignment-solution.ipynb">list question solution</a>
-                </li>
-                <li>
-                    <a href="004-Built-in-Data-Structure/003_tuple.ipynb">tuple</a>
-                </li>
-                <li>
-                    <a href="004-Built-in-Data-Structure/005-sets.ipynb">sets</a>
-                </li>
-                <li>
-                    <a href="004-Built-in-Data-Structure/007-dictionaries.ipynb">dictionaries</a>
-                </li>
-                <li>
-                    <a href="004-Built-in-Data-Structure/007-dictionaries.ipynb">real world example</a>
-                </li>
-            </ul>
-        </td>
-    </tr>
-</table>
+## 📚 Table of Contents
+
+### 🐍 Basic Python Programming Language
+
+| Notebook | Description |
+|----------|-------------|
+| [basic python](002-Python-Programming-Language/001-basic.ipynb) | Introduction to Python syntax and fundamentals |
+| [variables](002-Python-Programming-Language/002-variables.ipynb) | Variable declaration, naming, and scope |
+| [data-types](002-Python-Programming-Language/003-data-types.ipynb) | Strings, integers, floats, booleans, and more |
+| [operators](002-Python-Programming-Language/004-operators.ipynb) | Arithmetic, comparison, logical, and bitwise operators |
+| [assignment-solution](002-Python-Programming-Language/006-assignment_solution.ipynb) | Solutions to basic Python assignments |
+
+---
+
+### 🔄 Control Flow
+
+| Notebook | Description |
+|----------|-------------|
+| [conditional statements](003-Python-Control-Flow/001-conditional-statements.ipynb) | if, elif, else statements |
+| [loops](003-Python-Control-Flow/002-loops.ipynb) | for loops, while loops, break, and continue |
+| [assignment-questions](003-Python-Control-Flow/003-assignment-questions.ipynb) | Practice problems for control flow |
+| [assignment-solutions](003-Python-Control-Flow/004-assignment-solutions.ipynb) | Solutions to control flow assignments |
+
+---
+
+### 🗂️ Built-in Data Structures
+
+| Notebook | Description |
+|----------|-------------|
+| [list & list comprehension](004-Built-in-Data-Structure/001-list-list-comprehension.ipynb) | Lists, indexing, slicing, and comprehensions |
+| [list questions](004-Built-in-Data-Structure/002-01-list-assignment-questions.ipynb) | Practice problems on lists |
+| [list solutions](004-Built-in-Data-Structure/002-02-list-assignment-solution.ipynb) | Solutions to list problems |
+| [tuple](004-Built-in-Data-Structure/003_tuple.ipynb) | Immutable sequences and their use cases |
+| [sets](004-Built-in-Data-Structure/005-sets.ipynb) | Set operations, unions, intersections |
+| [dictionaries](004-Built-in-Data-Structure/007-dictionaries.ipynb) | Key-value pairs, methods, and real-world examples |
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to open a pull request or submit an issue.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
