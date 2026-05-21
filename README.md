@@ -112,6 +112,18 @@ https://www.anaconda.com/download/success
                 <li>
                     <a href="004-Built-in-Data-Structure/002-02-list-assignment-solution.ipynb">list question solution</a>
                 </li>
+                <li>
+                    <a href="004-Built-in-Data-Structure/003_tuple.ipynb">tuple</a>
+                </li>
+                <li>
+                    <a href="004-Built-in-Data-Structure/005-sets.ipynb">sets</a>
+                </li>
+                <li>
+                    <a href="004-Built-in-Data-Structure/007-dictionaries.ipynb">dictionaries</a>
+                </li>
+                <li>
+                    <a href="004-Built-in-Data-Structure/007-dictionaries.ipynb">real world example</a>
+                </li>
             </ul>
         </td>
     </tr>
