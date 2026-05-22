@@ -1,3 +1,4 @@
 env/
 .vscode
 docs/
+.ipynb_checkpoints
