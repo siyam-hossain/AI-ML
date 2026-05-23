@@ -1,0 +1,6 @@
+Hello world
+Welcome to file operation
+Append a line in file
+first line
+second line
+third line
