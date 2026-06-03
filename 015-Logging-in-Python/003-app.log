@@ -1,0 +1,10 @@
+2026-06-03 20:13:17 - Arithmetic_APP -DEBUG - Adding 14+20: 34
+2026-06-03 20:13:17 - Arithmetic_APP -DEBUG - subtracting 20-14: 6
+2026-06-03 20:13:17 - Arithmetic_APP -DEBUG - multiplying 20*5: 100
+2026-06-03 20:13:17 - Arithmetic_APP -DEBUG - dividing 20*5: 4.0
+2026-06-03 20:13:17 - Arithmetic_APP -ERROR - Division by zero error
+2026-06-03 20:14:05 - Arithmetic_APP -DEBUG - Adding 14+20: 34
+2026-06-03 20:14:05 - Arithmetic_APP -DEBUG - subtracting 20-14: 6
+2026-06-03 20:14:05 - Arithmetic_APP -DEBUG - multiplying 20*5: 100
+2026-06-03 20:14:05 - Arithmetic_APP -DEBUG - dividing 20*5: 4.0
+2026-06-03 20:14:05 - Arithmetic_APP -ERROR - Division by zero error
