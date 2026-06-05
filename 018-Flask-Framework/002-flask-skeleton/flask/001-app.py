@@ -1,0 +1,38 @@
+from flask import Flask
+
+
+'''
+It creates an instance of the Flask class, which will be your WSGI (Web Server GateWay Interface) application.
+'''
+# most import parameter
+# __name__ must required can't skip it
+# WSGI application
+app = Flask(__name__)
+
+
+# create basic route 
+# decorator: 
+# -> a design pattern that allows you to dynamically add new behavior or functionality to an existing object, function, or class without permanently modifying its structure
+
+# route(rule) : rule is a str parameter 
+@app.route("/")
+def welcome():
+    return "Welcome to this flask course.This should be an amazing course. How are you"
+
+# we can create any number of route
+@app.route("/about")
+def about():
+    return "This is Siyam.\nHow may I help you?"
+
+# entry point
+# where execution will start
+if __name__ == "__main__":
+    # debug=True parameter allow us run, reboot server automatically while changes in the code.
+    # no need to run reboot manually 
+    # the changes shows immediately on the web pages
+    app.run(debug=True) 
+
+
+
+# to run the server
+# python 018-Flask-Framework/002-flask-skeleton/flask/001-app.py

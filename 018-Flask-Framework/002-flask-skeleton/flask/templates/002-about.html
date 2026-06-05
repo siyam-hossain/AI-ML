@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us Section</title>
+    <style>
+        /* --- RESET & VARIABLES --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        :root {
+            --primary: #2563eb;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --bg-light: #f8fafc;
+        }
+
+        /* --- SECTION LAYOUT --- */
+        .about-section {
+            padding: 80px 20px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .about-container {
+            max-width: 1100px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        /* --- LEFT SIDE: IMAGE placeholder --- */
+        .about-image-wrapper {
+            position: relative;
+            background: linear-gradient(135deg, #e2e8f0, #cbd5e1);
+            border-radius: 12px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .about-image-wrapper::before {
+            content: "📷 Image Placeholder";
+            color: var(--text-light);
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        /* --- RIGHT SIDE: CONTENT --- */
+        .about-content h4 {
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        .about-content h2 {
+            color: var(--text-dark);
+            font-size: 2.5rem;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        .about-content p {
+            color: var(--text-light);
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* --- INTERACTIVE TABS --- */
+        .tabs-nav {
+            display: flex;
+            gap: 15px;
+            border-bottom: 2px solid #e2e8f0;
+            margin-bottom: 20px;
+        }
+        .tab-btn {
+            background: none;
+            border: none;
+            padding: 10px 5px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-light);
+            cursor: pointer;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        .tab-btn:hover {
+            color: var(--primary);
+        }
+        .tab-btn.active {
+            color: var(--primary);
+        }
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--primary);
+        }
+        
+        /* Tab Content Visibility */
+        .tab-panel {
+            display: none;
+            animation: fadeIn 0.4s ease;
+        }
+        .tab-panel.active {
+            display: block;
+        }
+        .tab-panel ul {
+            list-style: none;
+        }
+        .tab-panel li {
+            color: var(--text-light);
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+        .tab-panel li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* --- ANIMATION --- */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* --- RESPONSIVE DESIGN --- */
+        @media (max-width: 768px) {
+            .about-container {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            .about-image-wrapper {
+                height: 280px;
+            }
+            .about-content h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="about-section">
+        <div class="about-container">
+            
+            <!-- Left Side: Visual -->
+            <div class="about-image-wrapper">
+                <!-- Replace this wrapper with an <img src="your-image.jpg" alt="About Us"> tag if you have one -->
+            </div>
+
+            <!-- Right Side: Text & Interactive Tabs -->
+            <div class="about-content">
+                <h4>Our Story</h4>
+                <h2>We build digital products that drive growth.</h2>
+                <p>We are a dedicated team of designers, developers, and strategists. We help businesses transform their digital presence with clean code and modern designs.</p>
+
+                <!-- Tabs Navigation -->
+                <div class="tabs-nav">
+                    <button class="tab-btn active" data-tab="mission">Our Mission</button>
+                    <button class="tab-btn" data-tab="vision">Our Vision</button>
+                    <button class="tab-btn" data-tab="skills">Core Skills</button>
+                </div>
+
+                <!-- Tabs Content Panels -->
+                <div id="mission" class="tab-panel active">
+                    <p>To empower local and global brands by delivering high-performing web ecosystems built on scalability, accessibility, and clean design metrics.</p>
+                </div>
+
+                <div id="vision" class="tab-panel">
+                    <p>To become a leading technological catalyst, reshaping how everyday consumers interact with modern web applications through seamless UX design.</p>
+                </div>
+
+                <div id="skills" class="tab-panel">
+                    <ul>
+                        <li>Front-end Engineering (HTML, CSS, JS, React)</li>
+                        <li>Responsive and Mobile-First Architecture</li>
+                        <li>UI/UX Wireframing & Rapid Prototyping</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- --- JAVASCRIPT --- -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabs = document.querySelectorAll('.tab-btn');
+            const panels = document.querySelectorAll('.tab-panel');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const targetTab = tab.getAttribute('data-tab');
+
+                    // 1. Remove active state from all buttons
+                    tabs.forEach(t => t.classList.remove('active'));
+                    // 2. Hide all content panels
+                    panels.forEach(p => p.classList.remove('active'));
+
+                    // 3. Add active state to clicked button
+                    tab.classList.add('active');
+                    // 4. Show corresponding panel
+                    document.getElementById(targetTab).classList.add('active');
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

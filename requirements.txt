@@ -1,0 +1,8 @@
+jupyter
+ipykernel
+numpy
+pandas
+matplotlib
+seaborn
+flask
+bs4
