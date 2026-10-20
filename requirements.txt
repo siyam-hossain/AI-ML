@@ -6,3 +6,6 @@ matplotlib
 seaborn
 flask
 bs4
+scikit-learn
+mlxtend
+tensorflow
